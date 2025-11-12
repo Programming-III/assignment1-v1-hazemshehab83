@@ -7,10 +7,13 @@
 #include <iostream>
 using namespace std;
 
+    int main() {
+        animals = { "Lion", "parrot","snake" };
+        Enclosure = (300, Animals, 250);
+        visitors = ("sarah ali", 3);
 
-// ============== MAIN FUNCTION ==============
-int main() {
-    
-    
-    return 0;
-}
+
+        return 0;
+    }
+
+
