@@ -3,13 +3,16 @@
 
 #include <string>
 using namespace std;
+class visitors {	
+	private:
+	string visitorName;
+	int ticetsbouhgt;
 
-//define visitor class here
+	public 
+		visitors(string visitorName, int ticetsbouhgt);
 
+	~visitors() {};
 
-
-
-
-
-
-#endif
+	void display() {
+		cout << "Visitor Name: " << visitorName << ", Tickets Bought: " << ticetsbouhgt << endl;
+	}
