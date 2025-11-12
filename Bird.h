@@ -2,13 +2,21 @@
 #define BIRD_H
 
 #include "Animal.h"
+#include <string>
+#include <Animal.h>
+using namespace std;
+class Bird : public Animal {
 
-//define class bird here 
+	private
+		float wingSpan;
 
+	public
+		Bird(string name, int age, bool isHungry, float wingSpan)
+		
+		~Bird() {};
 
-
-
-
-
-
-#endif
+	void display() {
+		Animal::display();
+		cout << "Wing Span: " << wingSpan << " meters" << endl;
+	}
+}
